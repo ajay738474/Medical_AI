@@ -1,0 +1,36 @@
+TissueMNIST Evaluation Results
+======================================================================
+
+Test Images : 47,280
+Accuracy    : 36.55%
+Precision   : 20.30%
+Recall      : 24.48%
+F1 Score    : 20.26%
+
+Classification Report
+======================================================================
+                                    precision    recall  f1-score   support
+
+Collecting Duct, Connecting Tubule       0.49      0.69      0.57     15165
+          Distal Convoluted Tubule       0.05      0.13      0.07      2233
+      Glomerular endothelial cells       0.15      0.35      0.21      1677
+    Interstitial endothelial cells       0.18      0.03      0.05      4402
+                        Leukocytes       0.24      0.34      0.28      3369
+                         Podocytes       0.00      0.00      0.00      2202
+          Proximal Tubule Segments       0.43      0.41      0.42     11201
+              Thick Ascending Limb       0.09      0.00      0.00      7031
+
+                          accuracy                           0.37     47280
+                         macro avg       0.20      0.24      0.20     47280
+                      weighted avg       0.31      0.37      0.32     47280
+
+Confusion Matrix
+======================================================================
+[[10466  1465   967   185   206     0  1866    10]
+ [ 1463   285   116    17    59     0   290     3]
+ [  367    70   590    61   527     0    50    12]
+ [ 1290   292   753   139  1548     0   319    61]
+ [  928   250   511    95  1150     0   390    45]
+ [  798   176   414    66   448     0   284    16]
+ [ 3971  1843   157   129   435     0  4634    32]
+ [ 2100  1022   358   101   402     0  3031    17]]

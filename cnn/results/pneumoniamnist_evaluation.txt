@@ -1,0 +1,25 @@
+PNEUMONIAMNIST MODEL EVALUATION
+======================================================================
+
+Test Images : 624
+Accuracy    : 84.46%
+Precision   : 87.94%
+Recall      : 79.96%
+F1 Score    : 81.83%
+
+CLASSIFICATION REPORT
+======================================================================
+              precision    recall  f1-score   support
+
+      normal       0.95      0.62      0.75       234
+   pneumonia       0.81      0.98      0.89       390
+
+    accuracy                           0.84       624
+   macro avg       0.88      0.80      0.82       624
+weighted avg       0.86      0.84      0.84       624
+
+
+CONFUSION MATRIX
+======================================================================
+[[145  89]
+ [  8 382]]

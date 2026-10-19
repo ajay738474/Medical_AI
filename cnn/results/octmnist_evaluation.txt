@@ -1,0 +1,29 @@
+OCTMNIST MODEL EVALUATION
+======================================================================
+
+Test Images : 1000
+Accuracy    : 57.40%
+Precision   : 67.44%
+Recall      : 57.40%
+F1 Score    : 48.38%
+
+CLASSIFICATION REPORT
+======================================================================
+                              precision    recall  f1-score   support
+
+choroidal neovascularization       0.58      0.92      0.71       250
+      diabetic macular edema       0.87      0.39      0.54       250
+                      drusen       0.75      0.01      0.02       250
+                      normal       0.50      0.98      0.66       250
+
+                    accuracy                           0.57      1000
+                   macro avg       0.67      0.57      0.48      1000
+                weighted avg       0.67      0.57      0.48      1000
+
+
+CONFUSION MATRIX
+======================================================================
+[[229  10   0  11]
+ [ 63  98   1  88]
+ [ 98   3   3 146]
+ [  4   2   0 244]]

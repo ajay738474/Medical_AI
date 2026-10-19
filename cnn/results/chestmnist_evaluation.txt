@@ -1,0 +1,26 @@
+CHESTMNIST EVALUATION
+======================================================================
+
+Test Images: 22433
+Macro AUROC: 71.16%
+Macro Average Precision: 11.49%
+Macro Precision: 9.40%
+Macro Recall: 63.88%
+Macro F1: 15.09%
+
+PER-LABEL RESULTS
+======================================================================
+0 - Atelectasis: AUC=70.69%, Precision=18.59%, Recall=64.38%, F1=28.84%
+1 - Cardiomegaly: AUC=73.74%, Precision=5.28%, Recall=64.26%, F1=9.77%
+2 - Effusion: AUC=77.85%, Precision=27.16%, Recall=66.96%, F1=38.65%
+3 - Infiltration: AUC=64.35%, Precision=24.74%, Recall=57.21%, F1=34.55%
+4 - Mass: AUC=66.54%, Precision=7.49%, Recall=68.58%, F1=13.50%
+5 - Nodule: AUC=61.16%, Precision=8.80%, Recall=39.18%, F1=14.38%
+6 - Pneumonia: AUC=65.64%, Precision=2.42%, Recall=43.39%, F1=4.58%
+7 - Pneumothorax: AUC=74.37%, Precision=9.84%, Recall=71.63%, F1=17.31%
+8 - Consolidation: AUC=75.13%, Precision=9.61%, Recall=64.47%, F1=16.73%
+9 - Edema: AUC=82.91%, Precision=5.52%, Recall=79.66%, F1=10.32%
+10 - Emphysema: AUC=70.34%, Precision=3.87%, Recall=69.35%, F1=7.33%
+11 - Fibrosis: AUC=69.30%, Precision=2.72%, Recall=69.34%, F1=5.23%
+12 - Pleural Thickening: AUC=63.66%, Precision=5.14%, Recall=50.27%, F1=9.33%
+13 - Hernia: AUC=80.53%, Precision=0.40%, Recall=85.71%, F1=0.80%

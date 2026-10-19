@@ -1,0 +1,33 @@
+BloodMNIST Evaluation Results
+============================================================
+Test Images : 3421
+Accuracy    : 82.14%
+Precision   : 80.72%
+Recall      : 77.60%
+F1 Score    : 78.65%
+
+Classification Report:
+                       precision    recall  f1-score   support
+
+            Basophils       0.74      0.55      0.63       244
+          Eosinophils       0.96      0.96      0.96       624
+        Erythroblasts       0.84      0.78      0.81       311
+Immature granulocytes       0.64      0.78      0.70       579
+          Lymphocytes       0.75      0.75      0.75       243
+            Monocytes       0.74      0.53      0.61       284
+          Neutrophils       0.89      0.90      0.89       666
+            Platelets       0.92      0.97      0.94       470
+
+             accuracy                           0.82      3421
+            macro avg       0.81      0.78      0.79      3421
+         weighted avg       0.82      0.82      0.82      3421
+
+Confusion Matrix:
+[[133   8   1  74  17   6   5   0]
+ [  3 596   0   5   1   2  16   1]
+ [  3   3 242  20   9   1   6  27]
+ [ 22   7  13 452  19  36  27   3]
+ [  6   1  16  24 183   4   7   2]
+ [  8   1   1 108   5 150  10   1]
+ [  4   7  10  24  10   5 599   7]
+ [  1   0   6   3   1   0   4 455]]

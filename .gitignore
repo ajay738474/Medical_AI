@@ -1,0 +1,54 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Local databases
+*.db
+*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code settings
+.vscode/
+
+# Generated CNN features and trained model weights
+cnn/features/
+cnn/models/
+*.pt
+*.pth
+
+# Local ChromaDB database
+models/chroma_db/
+
+# Uploaded test images
+cnn/uploads/
+
+# Local test images
+cnn/*_test_image.png
+cnn/test_image.png
+
+# VS Code settings
+.vscode/
